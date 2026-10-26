@@ -1,0 +1,17 @@
+build/
+bin/
+out/
+*.exe
+*.dll
+*.lib
+*.obj
+*.exp
+*.pdb
+*.ilk
+.vs/
+.vscode/
+*.suo
+*.user
+*.ipch
+.DS_Store
+Thumbs.db
