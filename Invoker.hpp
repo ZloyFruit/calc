@@ -17,7 +17,7 @@ public:
     }
 
     void AddInQueue(std::unique_ptr<Command> &&command) {
-        Commands.push(move(command));
+        Commands.push(std::move(command));
     }
 
     void executeCommands() {
